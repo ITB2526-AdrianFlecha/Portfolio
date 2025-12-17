@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Profesional</title>
+    <link rel="stylesheet" href="ListadoPorfolio.css">
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script>
+  window.addEventListener("load", () => {
+    tsParticles.load("particles-bg", {
+      fullScreen: { enable: true },
+      background: { color: "transparent" },
+      particles: {
+        number: { value: 60 },
+        color: { value: "#2563eb" },
+        links: { enable: true, color: "#2563eb", opacity: 0.2, distance: 120 },
+        move: { enable: true, speed: 0.5 },
+        opacity: { value: 0.3 },
+        size: { value: 2 }
+      }
+    });
+  });
+</script>
+
+</head>
+<body>
+ <button id="theme-toggle" class="btn" type="button">Modo oscuro</button>
+
+<div id="particles-bg"></div>
+
+    <!-- Contenedor de partículas (añadido) -->
+    <div id="particles-bg"></div>
+    <div class="overlay"></div>
+
+    <div class="main-layout">
+        <nav class="sidebar">
+            <details open>
+                <summary>Porfolio:</summary>
+                <ul>
+                    <li>
+                        <details open>
+                            <summary>Projectos:</summary>
+                            <ul>
+                                <li>Lorem Ipsum</li>
+                                <li>Lorem Ipsum</li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </details>
+        </nav>
+
+        <div class="right-container">
+            <header class="main-header">
+                <h1>Porfolio profesional</h1>
+            </header>
+
+            <main class="content">
+                <section class="section-box">
+                    <header>
+                        <h2 class="subtitle">Projectos:</h2>
+                    </header>
+
+                    <article>
+                        <ul class="main-list">
+                            <li>Don Quijote</li>
+                            <li>De la mancha</li>
+                            <li>Y Sancho panza</li>
+                            <li>Con su lanza</li>
+                        </ul>
+                    </article>
+
+                    <footer class="internal-footer"></footer>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        Pie de pagina
+    </footer>
+
+    <!-- Librería (añadida) -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+
+    <!-- Inicialización (añadida) -->
+    <script>
+      window.addEventListener("load", () => {
+        tsParticles.load("particles-bg", {
+          fullScreen: { enable: true },
+          background: {
+            color: "transparent"
+          },
+          particles: {
+            number: { value: 60 },
+            color: { value: "#2563eb" },
+            links: {
+              enable: true,
+              color: "#2563eb",
+              opacity: 0.2,
+              distance: 120
+            },
+            move: {
+              enable: true,
+              speed: 0.5
+            },
+            opacity: { value: 0.3 },
+            size: { value: 2 }
+          }
+        });
+      });
+    </script>
+</body>
+</html>
